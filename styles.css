@@ -1,0 +1,198 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+
+:root {
+    --color-background: white;
+    --color-font: black;
+    --color-font2: #777777;
+    --color-fontfooter: #999999;
+    --color-pink: #fbdfdb;
+    --color-bkfooter: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    background: var(--color-background);
+    color: var(--color-font);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* === HEADER === */
+
+header {
+    padding: 30px 30px 30px 30px;
+    background: var(--color-background);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 27px;
+    width: 90px;
+}
+
+.links a {
+    color: var(--color-font);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 18px;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/* === PINK BOX === */
+
+.pinkbox {
+    background-color: var(--color-pink);
+    height: 366px;
+    width: 940px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pinkbox h1 {
+    margin-left: 60px;
+    margin-top: 117px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.pinkbox p {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 117px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
+.pinkbox img {
+    height: 300px;
+    width: 216px;
+    margin-top: 66px;
+    margin-left: 154px;
+}
+
+/* === GRID LIST WITH THE MOST ACCESSED RECIPES === */
+
+.mostAccessed {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 0px 10px 0px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mostAccessed h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.item img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.item h1 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.item h2 {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: var(--color-font2);
+}
+
+/* === FOOTER === */
+
+footer {
+    background-color: var(--color-bkfooter);
+    width: 100%;
+    height: 62px;
+}
+
+footer p {
+    color: var(--color-fontfooter);
+    text-align: center;
+    padding: 23px 0px 23px 0px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+/* PRECISO FAZER COM QUE O LINK FIQUE EM BOLD QUANDO ESTOU NA DEVIDA PÁGINA */
+
+/* === PAGE SOBRE === */
+
+.text {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text h1 {
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-font);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-font2);
+    text-align: justify;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.text h2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-font);
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* === PAGE RECIPES === */
+
+.recipes {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 0px 10px 0px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
